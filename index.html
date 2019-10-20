@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Record Collection App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <!-- <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="title" class="primary">Title</label>
+          <input type="text" id="title" required/>
+        </div> -->
+
+        <form id="new-item-form">
+          <div id="form-wrapper">
+
+        <div class="form-item">
+          <label for="artist" class="primary">Artist</label>
+          <input type="text" id="artist" required/>
+        </div>
+
+        <!-- <form id="new-item-form">
+          <div id="form-wrapper"> -->
+            <div class="form-item">
+              <label for="title" class="primary">Title</label>
+              <input type="text" id="title" required/>
+            </div>
+
+            <!-- <form id="new-item-form">
+              <div id="form-wrapper">
+                <div class="form-item">
+                  <label for="record_label" class="primary">Label</label>
+                  <input type="text" id="record_label" required/>
+                </div> -->
+
+        <div class="form-item">
+          <label for="genre" class="primary">Genre</label>
+          <select id="genre">
+            <option value="" disabled selected></option>
+            <option value="Detroit Techno">Techno</option>
+            <option value="German Techno">German Techno</option>
+            <option value="Electro">Electro</option>
+            <option value="Chicago House">Chicago House</option>
+            <option value="European House">European House</option>
+            <option value="Hip Hop">Hip Hop</option>
+          </select>
+        </div>
+
+        <p>Select Stock Status:</p>
+
+        <div class ="form-item">
+          <input type="radio" id="in_stock" name="stock" value="In Stock"
+                 checked>
+          <label for="in_stock">In Stock</label>
+        </div>
+
+        <div>
+          <input type="radio" id="out_of_stock" name="stock" value="Out Of Stock">
+          <label for="out_of_stock">Out Of Stock</label>
+        </div>
+
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+
+    <button id="delete-all">Delete All</button>
+
+    <h1>Record Shop Inventory</h1>
+    <div id="record-list"></div>
+  </body>
+</html>
