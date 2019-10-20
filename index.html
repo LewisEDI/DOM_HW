@@ -7,12 +7,6 @@
     <script src="js/app.js"></script>
   </head>
   <body>
-    <!-- <form id="new-item-form">
-      <div id="form-wrapper">
-        <div class="form-item">
-          <label for="title" class="primary">Title</label>
-          <input type="text" id="title" required/>
-        </div> -->
 
         <form id="new-item-form">
           <div id="form-wrapper">
@@ -22,25 +16,23 @@
           <input type="text" id="artist" required/>
         </div>
 
-        <!-- <form id="new-item-form">
-          <div id="form-wrapper"> -->
             <div class="form-item">
               <label for="title" class="primary">Title</label>
               <input type="text" id="title" required/>
             </div>
 
-            <!-- <form id="new-item-form">
+            <form id="new-item-form">
               <div id="form-wrapper">
                 <div class="form-item">
                   <label for="record_label" class="primary">Label</label>
                   <input type="text" id="record_label" required/>
-                </div> -->
+                </div>
 
         <div class="form-item">
           <label for="genre" class="primary">Genre</label>
           <select id="genre">
             <option value="" disabled selected></option>
-            <option value="Detroit Techno">Techno</option>
+            <option value="Detroit Techno">Detroit Techno</option>
             <option value="German Techno">German Techno</option>
             <option value="Electro">Electro</option>
             <option value="Chicago House">Chicago House</option>
@@ -49,7 +41,7 @@
           </select>
         </div>
 
-        <p>Select Stock Status:</p>
+        <p>Select Stock Status</p>
 
         <div class ="form-item">
           <input type="radio" id="in_stock" name="stock" value="In Stock"
@@ -63,10 +55,10 @@
         </div>
 
       </div>
-      <input type="submit" value="save"/>
+      <input type="submit" value="Save"/>
     </form>
 
-    <button id="delete-all">Delete All</button>
+    <button id="delete-all">Clear Inventory</button>
 
     <h1>Record Shop Inventory</h1>
     <div id="record-list"></div>

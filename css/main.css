@@ -1,10 +1,9 @@
-/* body {
-  font-family: Palatino; */
+
   body {
   background: black url('118870215.jpg');
   background-size: 100%;
   color: pink;
-  font-size: 175%;
+  font-size: 100%;
   background-size: cover;
   font-family: courier;
 }
@@ -12,7 +11,7 @@
 #form-wrapper {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .form-item {
@@ -24,24 +23,24 @@ label.primary {
   margin: 0.4em 0;
 }
 
-label::after {
-  content: ":";
-}
 
 button, input[type="submit"] {
   margin-top: 1rem;
+  width: 10%;
 }
 
 #record-list {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  list-style-image: url('300.jpg');
 }
 
 .record-list-item {
   margin: 0.5rem 0.5rem;
   padding: 0.5rem 0.8rem;
-  border: 1px solid #20437c;
+  border: 5px solid #20437c;
   border-radius: 5%;
   background: #ddeaff;
+  color: black;
 }

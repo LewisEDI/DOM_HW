@@ -28,9 +28,9 @@ const createRecordListItem = function (form) {
   title.textContent = form.title.value;
   recordListItem.appendChild(title);
 
-  // const record_label = document.createElement('h2');
-  // record_label.textContent = form.record_label.value;
-  // recordListItem.appendChild(record_label);
+  const record_label = document.createElement('h2');
+  record_label.textContent = form.record_label.value;
+  recordListItem.appendChild(record_label);
 
   const genre = document.createElement('h2');
   genre.textContent = form.genre.value;
